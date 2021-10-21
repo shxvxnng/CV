@@ -106,3 +106,13 @@ ul{
 .tabcontent button:hover {
   background-color: #662fad;
 }
+@media (min-width:270px) and (max-width:440px){
+  .typing-demo{
+    font-size:1.5rem;
+  }
+}
+@media (max-width:270px){
+  .typing-demo{
+    font-size:.8rem;
+  }
+}
