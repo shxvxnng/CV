@@ -123,4 +123,14 @@ ul{
   left: 0;
   bottom: 0;
   width: 100%;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  text-align: center;
+  padding: 2rem;
 }
